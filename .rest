@@ -1,0 +1,19 @@
+# Install VS Code extension: REST Client
+# Click "Send Request" above each request
+# Each request should be separated by a comment
+
+GET http://localhost:3000/status
+
+###
+
+POST http://localhost:3000/echo/this-is-my-parameter
+
+###
+
+POST http://localhost:3000/body
+Content-Type: application/json
+
+{
+    "name": "Christer",
+    "age": 29
+}
